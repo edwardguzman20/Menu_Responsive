@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(7, 1, 37);
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center
+}
+
+.main-retos {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom:30px;
+}
+
+.main-retos .objeto1,
+.main-retos .objeto2 {
+    width: 200px;
+    height: 200px;
+
+}
+
+.objeto1 {
+    background: #cf351a;
+}
+
+.objeto2 {
+    background: #0e6634;
+}
+
+.objeto3 {
+    background: #a07070;
+}
+
+.objeto4 {
+    background: #3a075c;
+}
+
+.main-retos .objeto3,
+.main-retos .objeto4 {
+    width: 200px;
+    height: 200px;
+}
+
+.reto3 .objeto1,
+.reto3 .objeto2,
+.reto3 .objeto3,
+.reto3 .objeto4 {
+    float: right;
+}
+
+.reto4 {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+}
+
+.reto4 .objeto1 {
+    float: left;
+    top: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.reto4 .objeto2 {
+    float: right;
+    top: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.reto4 .objeto3 {
+    top: 0 auto;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.reto4 .objeto4 {
+
+    float: right;
+    top: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+/* reto 5*/
+.reto5 {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.reto5 .objeto1 {
+    border: 0 solid;
+    float: left;
+    top: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.reto5 .objeto2 {
+
+    float: right;
+    top: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.reto5 .objeto3 {
+
+    margin: 100px 0 0 0;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.reto5 .objeto4 {
+
+    margin: 100px 0 0 0;
+    float: right;
+    top: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+/* reto 6 */
+.reto6 {
+    display: absolute;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.reto6 .objeto1 {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.reto6 .objeto2 {
+    position: relative;
+    top: 20%;
+    left: 40%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.reto6 .objeto3 {
+    position: relative;
+    top: 300px;
+    left: -100px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.reto6 .objeto4 {
+    position: relative;
+    top: 300px;
+    right: 0px;
+    float: left;
+    top: 0 auto;
+    width: 100px;
+    height: 100px;
+}

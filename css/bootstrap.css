@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+.imgs{
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 300px;
+}
+.margen-botones{
+    margin: 5px;
+}
+span.big-font{
+    font-size: 1em;
+    float: right;
+}
+.insignias{
+    width: 25%;
+    float: left;
+}
+p{
+    clear: both
+}
+.inline-space{
+    line-height: 2em;
+}
+h2{
+    clear: both;
+}
+.alineacion-lista{
+    float: right;
+}
+
